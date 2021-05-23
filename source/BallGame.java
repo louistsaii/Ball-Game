@@ -1,7 +1,7 @@
 import processing.core.*;
 
 import java.util.ArrayList;
-//Author: Louis T
+//Author: Louis T, 5/23/2021
 public class BallGame extends PApplet {
     boolean start = false;
     Ball player;
