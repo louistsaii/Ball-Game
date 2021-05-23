@@ -1,11 +1,9 @@
-import processing.core.PApplet;
-
 public class Ball extends Shape{
     private int size;
 
     int colorCode;
 
-    public Ball(int size, Ball_Game__2 main, int colorCode) {
+    public Ball(int size, BallGame main, int colorCode) {
         super(main);
         this.size = size;
         this.colorCode = colorCode;

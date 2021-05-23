@@ -1,9 +1,7 @@
-import processing.core.PApplet;
-
 public class Square extends Shape{
     float size;
 
-    public Square (Ball_Game__2 main,int size) {
+    public Square (BallGame main, int size) {
         super(main);
         this.size = size;
     }

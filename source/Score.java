@@ -1,8 +1,8 @@
 public class Score {
     int score;
-    Ball_Game__2 main;
+    BallGame main;
 
-    public Score (Ball_Game__2 main) {
+    public Score (BallGame main) {
         this.main = main;
     }
 

@@ -1,8 +1,8 @@
 import processing.core.*;
 
 import java.util.ArrayList;
-
-public class Ball_Game__2 extends PApplet {
+//Author: Louis T
+public class BallGame extends PApplet {
     boolean start = false;
     Ball player;
     Ball test;
@@ -113,7 +113,7 @@ public class Ball_Game__2 extends PApplet {
     }
 
     static public void main(String[] passedArgs) {
-        String[] appletArgs = new String[]{"Ball_Game__2"};
+        String[] appletArgs = new String[]{"BallGame"};
         if (passedArgs != null) {
             PApplet.main(concat(appletArgs, passedArgs));
         } else {

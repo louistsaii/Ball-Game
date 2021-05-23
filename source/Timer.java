@@ -1,8 +1,8 @@
 public class Timer{
     int time;
-    Ball_Game__2 main;
+    BallGame main;
 
-    public Timer(int time, Ball_Game__2 main){
+    public Timer(int time, BallGame main){
         this.time = time;
         this.main = main;
     }

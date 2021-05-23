@@ -2,7 +2,7 @@ public class TextBoard extends Square {
 
     String content;
 
-    public TextBoard(Ball_Game__2 main, String content) {
+    public TextBoard(BallGame main, String content) {
         super(main, 600);
         this.x = (800 - 600) / 2;
         this.y = (800 - 600) / 2;

@@ -1,8 +1,6 @@
-import processing.core.PApplet;
-
 public class Triangle extends Shape{
 
-    public Triangle(Ball_Game__2 main){
+    public Triangle(BallGame main){
         super(main);
     }
 

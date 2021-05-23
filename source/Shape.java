@@ -3,11 +3,11 @@ import processing.core.PApplet;
 public abstract class Shape {
     float x;
     float y;
-    Ball_Game__2 main;
+    BallGame main;
     int colorCode;
     int type;
 
-    public Shape(Ball_Game__2 main) {
+    public Shape(BallGame main) {
         this.main = main;
         int x = (int) (Math.random() * 2);
         type = x;
